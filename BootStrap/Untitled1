@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-     <li class="active"><a href="#">Home</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#contact">Contact</a></li>
         <meta charset="utf-8" />
         <title>Elven Bootstrap01</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,8 +14,10 @@
         <script src="//code.jquery.com/jquery.js"></script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
     </head>
-    <body>
-  <<div class="navbar navbar-inverse navbar-fixed-top">
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -37,14 +36,19 @@
         </div><!--/.nav-collapse -->
       </div>
     </div>
+
     <div class="container">
 
-    <div class="starter-template">
-        <!-- Place your converted markdown here -->
-    </div>
-</div><!-- /.container -->
-    !-- Place the two body elements here. -->
-</body>
-</html>
+      <div class="starter-template">
+        <h1>Bootstrap starter template</h1>
+        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+      </div>
 
-  
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  </body>
+</html>
