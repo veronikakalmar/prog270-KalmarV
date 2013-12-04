@@ -89,6 +89,15 @@ function animate($drawTarget, image, ready) {
 $(document).ready(function() {
 	var target01 = $('#drawHere01');
 	var target02 = $('#drawHere02');
+	var target01 = $('#drawHere03');
+	var target02 = $('#drawHere04');
+	var target01 = $('#drawHere05');
+	var target02 = $('#drawHere06');
 	animate(target01, 'Shapes01.png', true);
-	animate(target02, 'Shapes02.png', false);	
+	animate(target02, 'Shapes02.png', true);	
+	animate(target01, 'Shapes03.png', true);
+	animate(target02, 'Shapes04.png', true);
+    animate(target01, 'Shapes05.png', true);
+	animate(target02, 'Shapes06.png', false);	
+});
 });
